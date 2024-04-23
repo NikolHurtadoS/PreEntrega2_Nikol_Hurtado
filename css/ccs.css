@@ -1,0 +1,82 @@
+.conciertos1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; /* Color de fondo para el contenedor flex */
+    padding: 20px; /* Ajusta el espacio interno del contenedor */
+}
+
+.contenedor-texto {
+    margin-left: 20px;
+}
+
+.conciertos1 img {
+    width: 400px;
+    height: auto;
+}
+
+.conciertos1 p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.conciertos1 p span {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #053970;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    margin-bottom:30px; 
+    margin-top: 3%;
+}
+
+.noticias_contenido {
+    display: flex;
+    align-items: center;
+}
+
+.imagen_noticia img {
+    width: 600px; 
+    height: 600px;
+    margin-right:50px; 
+}
+.texto_Noticia h2 {
+    margin: 0;
+    font-size: 24px; /* Ajusta el tamaño del título según sea necesario */
+    color: #053970;
+
+}
+
+.texto_Noticia {
+    width: 50%; /* Ajusta el ancho del contenedor de texto */
+}
+
+.texto_Noticia p {
+    margin: 0;
+    font-size: 18px; /* Ajusta el tamaño del párrafo según sea necesario */
+    color: #f0f3f5;
+}
+
+
+
